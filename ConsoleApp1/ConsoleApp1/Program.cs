@@ -6,9 +6,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var name = "NAME";
-            var surname = "SURNAME";
-            Console.WriteLine("Hello {0} {1}!", name, surname);
+            Console.WriteLine("ENTER YOUT NAME");
+
+            var name = Console.ReadLine();
+            var surname = Console.ReadLine();
+
+            Console.WriteLine("Hello {0}!", name );
         }
     }
 }
